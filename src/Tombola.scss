@@ -1,9 +1,10 @@
 $brown: #655643;
 $green: #80bca3;
-$yellow: #f7ecbd;
+$yellow: #f7e3bd;
 $orange: #e6ac27;
 $red: #bf4d28;
 $white: #ffffff;
+$black: #000000aa;
 
 $script: "Oleo Script Swash Caps", cursive, serif;
 $sans: "Roboto", sans-serif;
@@ -17,9 +18,19 @@ body {
   font-family: $script;
   color: $brown;
   margin: 0.67em;
-  font-size: 2em;
+  font-size: 3.5em;
   font-weight: 400;
   text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  background: $yellow;
 }
 
 .table-row {
@@ -76,15 +87,16 @@ body {
   padding: 5vw;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 10px 10px 20px #00000055;
 }
 
 .popup--open {
-  animation: fade 300ms linear;
+  animation: fade 150ms linear;
   animation-fill-mode: both;
 }
 
 .popup--close {
-  animation: fade 300ms linear;
+  animation: fade 150ms linear;
   animation-direction: reverse;
   animation-fill-mode: both;
 }
@@ -100,17 +112,32 @@ body {
   cursor: pointer;
 }
 
+
+.smorfia-title {
+  display: flex;
+  font-size: 5vw;
+  align-items: center;
+}
+
+.smorfia-nr {
+  color: $orange;
+  margin: 0;
+  margin-right: 2vw;
+  font-family: $sans;
+}
+
 .smorfia-na {
   font-family: $script;
   font-weight: 400;
   color: $green;
   margin: 0;
-  font-size: 5vw;
+  line-height: 1em;
+  text-align: center;
 }
 
 .smorfia-it {
   font-family: $sans;
-  opacity: 0.4;
+  color: $black;
   font-size: 2vw;
   text-align: center;
   margin: 0;
@@ -118,14 +145,22 @@ body {
 
 .settings {
   margin: 4vw;
+  color: $black;
+  background: $white;
+  padding: 2vw;
+  border-radius: 20px;
+  border: 0.6vw solid $brown;
+  align-self: center;
+  text-align: center;
 }
 
 .settings-title {
   font-family: $script;
   color: $brown;
   font-weight: 400;
+  margin: 0;
   margin-bottom: 0.6vw;
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 .settings-list {
@@ -136,11 +171,28 @@ body {
 
 .settings-action {
   text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 .settings-action--active {
   font-weight: bolder;
+  text-decoration: none;
+}
+
+.copyright {
+  color: $black;
+  font-size: .8em;
+  text-align: center;
+  margin: 1em;
+}
+
+.broken-heart {
+  width: .9em;
+}
+
+.github {
+  color: $black;
 }
 
 @keyframes fade {

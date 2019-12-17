@@ -48,7 +48,10 @@ const Popup = ({ number, onClose }) => {
             ))}
           </div>
         ) : null}
-        {na ? <h2 className="smorfia-na">{na}</h2> : null}
+        <div className="smorfia-title">
+          <h2 className="smorfia-nr">{number}</h2>
+          <h2 className="smorfia-na">{na}</h2>
+        </div>
         {it ? <p className="smorfia-it">{it}</p> : null}
       </div>
     </div>

@@ -1,505 +1,505 @@
 {
   "1": {
     "na": "L'uno",
-    "it": "Una cosa unica e irripetibile, anche se dopo l'Unità è stato anche usato per definire L'Italia",
-    "emoji": ["digit-one.png"]
+    "it": "Una cosa unica e irripetibile, anche se dopo l'Unità è stato anche usato per definire l'Italia.",
+    "emojis": ["digit-one.png"]
   },
 
   "2": {
     "na": "La piccerella",
-    "it": "La bambina",
-    "emoji": ["girl.png"]
+    "it": "La bambina.",
+    "emojis": ["girl.png"]
   },
 
-  "3": { "na": "'A Gatta", "emoji": ["cat.png"] },
+  "3": { "na": "'A Gatta", "emojis": ["cat.png"] },
 
   "4": {
     "na": "'O puorco",
-    "it": "Il maiale inteso sia come animale che come uomo poco gentile",
-    "emoji": ["pig.png"]
+    "it": "Il maiale inteso sia come animale che come uomo poco gentile.",
+    "emojis": ["pig.png"]
   },
 
   "5": {
     "na": "'A mana",
-    "it": " La mano",
-    "emoji": ["waving-hand.png"]
+    "it": " La mano.",
+    "emojis": ["waving-hand.png"]
   },
 
   "6": {
     "na": "Chella ca guarda 'nterra",
-    "it": "La cosa che guarda a terra, indicazione delle parti intime femminili",
-    "emoji": ["eyes.png"]
+    "it": "La cosa che guarda a terra, indicazione delle parti intime femminili.",
+    "emojis": ["eyes.png"]
   },
 
-  "7": { "na": "'O Vaso", "it": "Il vaso", "emoji": ["amphora.png"] },
+  "7": { "na": "'O Vaso", "it": "Il vaso", "emojis": ["amphora.png"] },
 
   "8": {
     "na": "A' Maronna",
-    "it": "La Madonna, a volte anche la mamma defunta",
-    "emoji": ["prayer-beads.png"]
+    "it": "La Madonna, a volte anche la mamma defunta.",
+    "emojis": ["prayer-beads.png"]
   },
 
   "9": {
     "na": "'A figliata",
-    "it": "Gruppo di figli, la figliata, figli nati da una stessa gravidanza",
-    "emoji": ["boy.png", "girl.png", "boy.png", "girl.png"]
+    "it": "Gruppo di figli, la figliata, figli nati da una stessa gravidanza.",
+    "emojis": ["family-man-woman-girl-boy.png"]
   },
 
-  "10": { "na": "'E fasule", "it": "I fagioli", "emoji": ["canned-food.png"] },
+  "10": { "na": "'E fasule", "it": "I fagioli", "emojis": ["canned-food.png"] },
 
   "11": {
     "na": "'E suricille",
-    "it": "I topi piccoli quelli che solitamente entrano in casa e che si trovano nelle campagne",
-    "emoji": ["rat.png"]
+    "it": "I topi piccoli quelli che solitamente entrano in casa e che si trovano nelle campagne.",
+    "emojis": ["rat.png"]
   },
 
   "12": {
     "na": "'O surdate",
-    "it": "I soldati. A volte si può utilizzare questo numero pure per indicare un guerriero medievale o Samurai",
-    "emoji": ["man-guard.png"]
+    "it": "I soldati. A volte si può utilizzare questo numero pure per indicare un guerriero medievale o Samurai.",
+    "emojis": ["man-guard.png"]
   },
 
   "13": {
     "na": "Sant'Antonio",
-    "it": "Inteso come Sant'Antonio da Padova. Santo protettore della città di Padova",
-    "emoji": ["prayer-beads.png"]
+    "it": "Inteso come Sant'Antonio da Padova. Santo protettore della città di Padova.",
+    "emojis": ["prayer-beads.png"]
   },
 
   "14": {
     "na": "'O mbriaco",
-    "it": "L'ubriaco molesto ma anche quello ilare",
-    "emoji": ["woozy-face.png"]
+    "it": "L'ubriaco molesto ma anche quello ilare.",
+    "emojis": ["woozy-face.png"]
   },
 
   "15": {
     "na": "'O guaglione",
-    "it": "L'adolescente o il ragazzo",
-    "emoji": ["boy.png"]
+    "it": "L'adolescente o il ragazzo.",
+    "emojis": ["boy.png"]
   },
 
   "16": {
     "na": "'O culo",
-    "it": "Il culo, principalmente riferito come \"un colpo di fortuna\"",
-    "emoji": ["four-leaf-clover.png"]
+    "it": "Il culo, principalmente riferito come \"un colpo di fortuna\".",
+    "emojis": ["four-leaf-clover.png"]
   },
 
   "17": {
     "na": "'A disgrazia",
-    "it": "La disgrazia, abbinata naturalmente all'antico pensiero che il 17 fosse un numero sfortunato, perché tradotto in numeri romani, e letto in latino il suo significato era \"Morte\"",
-    "emoji": ["new-moon-face.png"]
+    "it": "La disgrazia, abbinata naturalmente all'antico pensiero che il 17 fosse un numero sfortunato, perché tradotto in numeri romani, e letto in latino il suo significato era \"Morte\".",
+    "emojis": ["new-moon-face.png"]
   },
 
-  "18": { "na": "'O sanghe", "it": "Il sangue", "emoji": ["syringe.png"] },
+  "18": { "na": "'O sanghe", "it": "Il sangue", "emojis": ["syringe.png"] },
 
   "19": {
     "na": "'A resata",
-    "it": "La risata molto forte",
-    "emoji": ["face-with-tears-of-joy.png"]
+    "it": "La risata molto forte.",
+    "emojis": ["face-with-tears-of-joy.png"]
   },
 
   "20": {
     "na": "'A festa",
-    "it": "Sia religiosa che popolare",
-    "emoji": ["partying-face.png"]
+    "it": "Sia religiosa che popolare.",
+    "emojis": ["partying-face.png"]
   },
 
   "21": {
     "na": "'A femmena annura",
-    "it": "Donna nuda, poco vestita o in topless, la femmina nuda simbolo non di pensieri sconci ma della bellezza molto accentuata",
-    "emoji": ["bikini.png"]
+    "it": "Donna nuda, poco vestita o in topless, la femmina nuda simbolo non di pensieri sconci ma della bellezza molto accentuata.",
+    "emojis": ["bikini.png"]
   },
 
   "22": {
     "na": "'O pazzo",
-    "it": "Il pazzo, non da curare ma che compie azioni sopra le righe e considerate folli",
-    "emoji": ["zany-face.png"]
+    "it": "Il pazzo, non da curare ma che compie azioni sopra le righe e considerate folli.",
+    "emojis": ["zany-face.png"]
   },
 
   "23": {
     "na": "'O scemo",
-    "it": "Lo scemo",
-    "emoji": ["upside-down-face.png"]
+    "it": "Lo scemo.",
+    "emojis": ["upside-down-face.png"]
   },
 
   "24": {
     "na": "'E gguardie",
-    "it": "Intese come guardie carcerarie ma anche come i poliziotti della polizia penitenziaria",
-    "emoji": ["man-police-officer.png"]
+    "it": "Intese come guardie carcerarie ma anche come i poliziotti della polizia penitenziaria.",
+    "emojis": ["man-police-officer.png"]
   },
 
-  "25": { "na": "Natale", "emoji": ["christmas-tree.png"] },
+  "25": { "na": "Natale", "emojis": ["christmas-tree.png"] },
 
   "26": {
     "na": "Nanninella",
-    "it": "Derivante del nome Anna, madre della Vergine Maria",
-    "emoji": ["woman.png"]
+    "it": "Derivante del nome Anna, madre della Vergine Maria.",
+    "emojis": ["woman.png"]
   },
 
   "27": {
     "na": "'O cantero",
-    "it": "Il vaso da notte",
-    "emoji": ["toilet.png"]
+    "it": "Il vaso da notte.",
+    "emojis": ["toilet.png"]
   },
 
   "28": {
     "na": "'E zizze",
-    "it": "Il seno o le mammelle di donna innanzitutto ma anche di animali",
-    "emoji": ["no-one-under-eighteen.png"]
+    "it": "Il seno o le mammelle di donna innanzitutto ma anche di animali.",
+    "emojis": ["no-one-under-eighteen.png"]
   },
 
   "29": {
     "na": "'O pate d'e criature",
-    "it": "Il padre dei bambini utilizzato per indicare l'organo riproduttivo maschile",
-    "emoji": ["man.png"]
+    "it": "Il padre dei bambini utilizzato per indicare l'organo riproduttivo maschile.",
+    "emojis": ["man.png"]
   },
 
   "30": {
     "na": "'E ppalle d'o tenente",
-    "it": "Proiettili, palle di fucile; la traduzione letteraria è \"le munizioni del tenente\"",
-    "emoji": ["pistol.png"]
+    "it": "Proiettili, palle di fucile; la traduzione letteraria è \"le munizioni del tenente\".",
+    "emojis": ["pistol.png"]
   },
 
   "31": {
     "na": "'O padrone 'e casa",
-    "it": "Il padrone della casa in fitto",
-    "emoji": ["man.png"]
+    "it": "Il padrone della casa in fitto.",
+    "emojis": ["man.png"]
   },
 
   "32": {
     "na": "'O capitone",
-    "it": "l'anguilla femmina, un piatto tipico cucinato nei tempi antichi nel periodo di natale nella città di Napoli e nei suoi comuni",
-    "emoji": ["fish.png"]
+    "it": "L'anguilla femmina, un piatto tipico cucinato nei tempi antichi nel periodo di natale nella città di Napoli e nei suoi comuni.",
+    "emojis": ["fish.png"]
   },
 
   "33": {
-    "na": "Ll'anne 'e Cristo",
-    "it": "L'età in cui Gesù Cristo morì in croce",
-    "emoji": ["latin-cross.png"]
+    "na": "L'anne 'e Cristo",
+    "it": "L'età in cui Gesù Cristo morì in croce.",
+    "emojis": ["latin-cross.png"]
   },
 
-  "34": { "na": "'A capa", "it": "La testa", "emoji": ["man.png"] },
+  "34": { "na": "'A capa", "it": "La testa", "emojis": ["man.png"] },
 
-  "35": { "na": "L'aucelluzz", "it": "L'uccellino", "emoji": ["bird.png"] },
+  "35": { "na": "L'aucelluzz", "it": "L'uccellino", "emojis": ["bird.png"] },
 
   "36": {
     "na": "'E castagnelle",
-    "it": "Le castagnette che si riferiscono alla versione popolare delle nacchere spagnole",
-    "emoji": ["woman-dancing.png"]
+    "it": "Le castagnette che si riferiscono alla versione popolare delle nacchere spagnole.",
+    "emojis": ["woman-dancing.png"]
   },
 
   "37": {
     "na": "'O monaco",
-    "it": "Inteso come il monaco con la tunica ordinato",
-    "emoji": ["prayer-beads.png"]
+    "it": "Inteso come il monaco con la tunica ordinato.",
+    "emojis": ["prayer-beads.png"]
   },
 
   "38": {
     "na": "'E mmazzate",
-    "it": "Le mazzate, le percosse",
-    "emoji": ["broom.png"]
+    "it": "Le mazzate, le percosse.",
+    "emojis": ["broom.png"]
   },
 
   "39": {
     "na": "'A funa n'ganna",
-    "it": "La corda al collo, l'impiccagione, essere impiccato o impiccarsi",
-    "emoji": ["coffin.png"]
+    "it": "La corda al collo, l'impiccagione, essere impiccato o impiccarsi.",
+    "emojis": ["coffin.png"]
   },
 
   "40": {
     "na": "'A paposcia",
-    "it": "L'ernia inguinale riferito più che altro al sesso maschile",
-    "emoji": ["confounded-face.png"]
+    "it": "L'ernia inguinale riferito più che altro al sesso maschile.",
+    "emojis": ["confounded-face.png"]
   },
 
   "41": {
     "na": "'O curtiello",
-    "it": "Il coltello come arma e non da tavola",
-    "emoji": ["kitchen-knife.png"]
+    "it": "Il coltello come arma e non da tavola.",
+    "emojis": ["kitchen-knife.png"]
   },
 
   "42": {
     "na": "'O caffè",
-    "it": "Naturalmente la bevanda più amata dai napoletani che ne sono maestri, il caffè",
-    "emoji": ["hot-beverage.png"]
+    "it": "Naturalmente la bevanda più amata dai napoletani che ne sono maestri, il caffè.",
+    "emojis": ["hot-beverage.png"]
   },
 
   "43": {
     "na": "'Onna pereta fore 'o barcone",
-    "it": "Letteralmente \"Donna Pereta affacciata al balcone\"; questa è un'immagine utilizzata per descrivere una donna pettegola e solitamente facente parte del popolo",
-    "emoji": ["woman-tipping-hand.png"]
+    "it": "Letteralmente \"Donna Pereta affacciata al balcone\"; questa è un'immagine utilizzata per descrivere una donna pettegola e solitamente facente parte del popolo.",
+    "emojis": ["woman-tipping-hand.png"]
   },
 
   "44": {
     "na": "'E ccancelle",
-    "it": "Le carceri",
-    "emoji": ["man-police-officer.png"]
+    "it": "Le carceri.",
+    "emojis": ["man-police-officer.png"]
   },
 
   "45": {
     "na": "'O vino buono",
-    "it": "Il vino buono",
-    "emoji": ["wine-glass.png"]
+    "it": "Il vino buono.",
+    "emojis": ["wine-glass.png"]
   },
 
   "46": {
     "na": "'E denare",
-    "it": "Il denaro, inteso più come moneta che come banconote",
-    "emoji": ["money-bag.png"]
+    "it": "Il denaro, inteso più come moneta che come banconote.",
+    "emojis": ["money-bag.png"]
   },
 
   "47": {
     "na": "'O muorto",
-    "it": "Il morto, si rifà principalmente a un parente o un conoscente defunto da poco tempo",
-    "emoji": ["coffin.png"]
+    "it": "Il morto, si rifà principalmente a un parente o un conoscente defunto da poco tempo.",
+    "emojis": ["coffin.png"]
   },
 
   "48": {
     "na": "'O muorto che parla",
-    "it": "Una delle espressioni più famose della Smorfia, il morto che parla è colui che può dare i numeri vincenti, portare consiglio, ecc... Solitamente è di buon auspicio o di avvertimento",
-    "emoji": ["coffin.png"]
+    "it": "Una delle espressioni più famose della Smorfia, il morto che parla è colui che può dare i numeri vincenti, portare consiglio, ecc... Solitamente è di buon auspicio o di avvertimento.",
+    "emojis": ["coffin.png"]
   },
 
   "49": {
     "na": "'O piezzo e carne",
-    "it": "Il pezzo di carne non inteso come un taglio da macelleria, ma, con una visione un po' antica e misogina come l'espressione per intendere una donna con un corpo prosperoso e bello da vedere",
-    "emoji": ["cut-of-meat.png"]
+    "it": "Il pezzo di carne non inteso come un taglio da macelleria, ma, con una visione un po' antica e misogina come l'espressione per intendere una donna con un corpo prosperoso e bello da vedere.",
+    "emojis": ["cut-of-meat.png"]
   },
 
   "50": {
     "na": "'O ppane",
-    "it": "Il pane, un alimento immancabile a tavola ieri come oggi",
-    "emoji": ["bread.png"]
+    "it": "Il pane, un alimento immancabile a tavola ieri come oggi.",
+    "emojis": ["bread.png"]
   },
 
   "51": {
     "na": "'O ciardino",
-    "it": "Il giardino",
-    "emoji": ["house-with-garden.png"]
+    "it": "Il giardino.",
+    "emojis": ["house-with-garden.png"]
   },
 
   "52": {
     "na": "'A mammà",
-    "it": "La mamma, una delle figure più importanti tenere e consolatrici nel mondo della smorfia",
-    "emoji": ["woman-curly-hair.png"]
+    "it": "La mamma, una delle figure più importanti tenere e consolatrici nel mondo della smorfia.",
+    "emojis": ["woman-curly-hair.png"]
   },
 
   "53": {
     "na": "'O viecchio",
-    "it": "Il vecchio inteso in senso positivo come un anziano saggio e in grado di fornire consigli",
-    "emoji": ["old-man.png"]
+    "it": "Il vecchio inteso in senso positivo come un anziano saggio e in grado di fornire consigli.",
+    "emojis": ["old-man.png"]
   },
 
   "54": {
     "na": "'O cappiello",
-    "it": "Il cappello, segno una volta di soldi e benestare",
-    "emoji": ["top-hat.png"]
+    "it": "Il cappello, segno una volta di soldi e benestare.",
+    "emojis": ["top-hat.png"]
   },
 
   "55": {
     "na": "'A museca",
-    "it": "La musica popolare, delle feste patronali e di piazza",
-    "emoji": ["musical-score.png"]
+    "it": "La musica popolare, delle feste patronali e di piazza.",
+    "emojis": ["musical-score.png"]
   },
 
   "56": {
     "na": "'A caruta",
-    "it": "La caduta a terra di una persona, una caduta solitamente divertente ed esilarante",
-    "emoji": ["down-arrow.png"]
+    "it": "La caduta a terra di una persona, una caduta solitamente divertente ed esilarante.",
+    "emojis": ["down-arrow.png"]
   },
 
   "57": {
     "na": "'O scartellato",
-    "it": "Il gobbo, una figura molto conosciuta nella Smorfia e nella superstizione in generale; il gobbo si dice porti fortuna se si tocca la sua gobba",
-    "emoji": []
+    "it": "Il gobbo, una figura molto conosciuta nella Smorfia e nella superstizione in generale; il gobbo si dice porti fortuna se si tocca la sua gobba.",
+    "emojis": []
   },
 
   "58": {
     "na": "'O paccotto",
-    "it": "Il pacco, un pacchetto che può essere un pacco della posta o un pacco imballato",
-    "emoji": ["package.png"]
+    "it": "Il pacco, un pacchetto che può essere un pacco della posta o un pacco imballato.",
+    "emojis": ["package.png"]
   },
 
   "59": {
     "na": "'E pile",
-    "it": "I peli maschili considerati principalmente come un vanto maschile e virile",
-    "emoji": ["man-beard.png"]
+    "it": "I peli maschili considerati principalmente come un vanto maschile e virile.",
+    "emojis": ["man-beard.png"]
   },
 
   "60": {
     "na": "'O lamiento",
-    "it": "Il lamento, il dolore per un avvenimento serio",
-    "emoji": ["loudly-crying-face.png"]
+    "it": "Il lamento, il dolore per un avvenimento serio.",
+    "emojis": ["loudly-crying-face.png"]
   },
 
   "61": {
     "na": "'O cacciatore",
-    "it": "Il cacciatore",
-    "emoji": ["kitchen-knife.png"]
+    "it": "Il cacciatore.",
+    "emojis": ["kitchen-knife.png"]
   },
 
   "62": {
     "na": "'O muorto acciso",
-    "it": "Una persona morta assassinata",
-    "emoji": ["pistol.png", "kitchen-knife.png", "coffin.png"]
+    "it": "Una persona morta assassinata.",
+    "emojis": ["pistol.png", "kitchen-knife.png", "coffin.png"]
   },
 
   "63": {
     "na": "'A sposa",
-    "it": "La sposa, dunque la ragazza che diviene donna e crea una famiglia",
-    "emoji": ["bride-with-veil.png"]
+    "it": "La sposa, dunque la ragazza che diviene donna e crea una famiglia.",
+    "emojis": ["bride-with-veil.png"]
   },
 
   "64": {
     "na": "'A sciammeria",
-    "it": "La giacca per gli eventi e le cerimonie",
-    "emoji": ["coat.png"]
+    "it": "La giacca per gli eventi e le cerimonie.",
+    "emojis": ["coat.png"]
   },
 
   "65": {
     "na": "'O chianto",
-    "it": "Il pianto di vero rammarico e dolore",
-    "emoji": ["crying-face.png"]
+    "it": "Il pianto di vero rammarico e dolore.",
+    "emojis": ["crying-face.png"]
   },
 
   "66": {
     "na": "'E doie",
-    "it": "Le due nubili, comunque \"zitelle\" e dunque anziane mai sposate",
-    "emoji": ["women-holding-hands.png"]
+    "it": "Le due nubili, comunque \"zitelle\" e dunque anziane mai sposate.",
+    "emojis": ["women-holding-hands.png"]
   },
 
   "67": {
     "na": "'O totaro int'a chitarra",
-    "it": "Il totano nella chitarra, quest'espressione è esplicitamente rivolta all'atto sessuale tra uomo e donna",
-    "emoji": ["love-hotel.png"]
+    "it": "Il totano nella chitarra, quest'espressione è esplicitamente rivolta all'atto sessuale tra uomo e donna.",
+    "emojis": ["squid.png", "guitar.png"]
   },
 
   "68": {
     "na": "'A zuppa cotta",
-    "it": "La zuppa cotta è un alimento che denotava la classe operaia e quella povera",
-    "emoji": ["teacup-without-handle.png"]
+    "it": "La zuppa cotta è un alimento che denotava la classe operaia e quella povera.",
+    "emojis": ["teacup-without-handle.png"]
   },
 
   "69": {
     "na": "Sott'e 'ncoppa",
-    "it": "Il sottosopra, come il numero 69 appare; anche qui il numero della smorfia si rifà a una dicotomia intesa come prettamente sessuale",
-    "emoji": ["upside-down-face.png"]
+    "it": "Il sottosopra, come il numero 69 appare; anche qui il numero della smorfia si rifà a una dicotomia intesa come prettamente sessuale.",
+    "emojis": ["upside-down-face.png"]
   },
 
   "70": {
     "na": "'O palazzo",
-    "it": "La casa (di proprietà) in cui si risiede",
-    "emoji": ["house.png"]
+    "it": "La casa (di proprietà) in cui si risiede.",
+    "emojis": ["house.png"]
   },
 
   "71": {
     "na": "L'ommo 'e mmerda",
-    "it": "L'uomo di merda, una persona di cui non ci si può fidare, che ha fatto un torto o che comunque si comporta in malo modo nella vita",
-    "emoji": ["pile-of-poo.png"]
+    "it": "L'uomo di merda, una persona di cui non ci si può fidare, che ha fatto un torto o che comunque si comporta in malo modo nella vita.",
+    "emojis": ["pile-of-poo.png"]
   },
 
   "72": {
     "na": "'A maraviglia",
-    "it": "La meraviglia",
-    "emoji": ["face-with-open-mouth.png"]
+    "it": "La meraviglia.",
+    "emojis": ["face-with-open-mouth.png"]
   },
 
-  "73": { "na": "'O spitale", "it": "L'ospedale", "emoji": ["hospital.png"] },
+  "73": { "na": "'O spitale", "it": "L'ospedale.", "emojis": ["hospital.png"] },
 
   "74": {
     "na": "'A rotta",
-    "it": "La grotta, in particolare s'intende quella in cui nacque Gesù",
-    "emoji": ["mountain.png"]
+    "it": "La grotta, in particolare s'intende quella in cui nacque Gesù.",
+    "emojis": ["mountain.png"]
   },
 
   "75": {
     "na": "Pulcinella",
-    "it": "Figura carnevalesca, simbolo della città Napoletana, considerato anche un buon portafortuna",
-    "emoji": ["spaghetti.png"]
+    "it": "Figura carnevalesca, simbolo della città Napoletana, considerato anche un buon portafortuna.",
+    "emojis": ["spaghetti.png"]
   },
 
   "76": {
     "na": "'A funtana",
-    "it": "La fontana, con l'acqua come metafora della vita",
-    "emoji": ["fountain.png"]
+    "it": "La fontana, con l'acqua come metafora della vita.",
+    "emojis": ["fountain.png"]
   },
 
   "77": {
     "na": "'E riavulille",
-    "it": "I diavoletti",
-    "emoji": ["smiling-face-with-horns.png"]
+    "it": "I diavoletti.",
+    "emojis": ["smiling-face-with-horns.png"]
   },
 
   "78": {
     "na": "'A bella figliola",
-    "it": "La prostituta",
-    "emoji": ["high-heeled-shoe.png"]
+    "it": "La prostituta.",
+    "emojis": ["high-heeled-shoe.png"]
   },
 
   "79": {
     "na": "'O mariuolo",
-    "it": "La persona disonesta o il ladro",
-    "emoji": ["man-supervillain.png"]
+    "it": "La persona disonesta o il ladro.",
+    "emojis": ["man-supervillain.png"]
   },
 
-  "80": { "na": "'A vocca", "it": "La bocca", "emoji": ["mouth.png"] },
+  "80": { "na": "'A vocca", "it": "La bocca.", "emojis": ["mouth.png"] },
 
   "81": {
     "na": "'E sciure",
-    "it": "I fiori",
-    "emoji": ["hibiscus.png", "tulip.png", "sunflower.png"]
+    "it": "I fiori.",
+    "emojis": ["hibiscus.png", "tulip.png", "sunflower.png"]
   },
 
   "82": {
     "na": "'A tavula 'mbandita",
-    "it": "La disgrazia, abbinata naturalmente all'antico pensiero che il 17 fosse un numero sfortunato, perché tradotto in numeri romani, e letto in latino il suo significato era \"Morte\"",
-    "emoji": ["bento-box.png"]
+    "it": "La disgrazia, abbinata naturalmente all'antico pensiero che il 17 fosse un numero sfortunato, perché tradotto in numeri romani, e letto in latino il suo significato era \"Morte\".",
+    "emojis": ["bento-box.png"]
   },
 
   "83": {
     "na": "'O maletiempo",
-    "it": "Il mal tempo",
-    "emoji": ["cloud-with-lightning-and-rain.png"]
+    "it": "Il mal tempo.",
+    "emojis": ["cloud-with-lightning-and-rain.png"]
   },
 
   "84": {
     "na": "'A cchiesa",
-    "it": "La chiesa come edificio e non come dogma",
-    "emoji": ["church.png"]
+    "it": "La chiesa come edificio e non come dogma.",
+    "emojis": ["church.png"]
   },
 
   "85": {
-    "na": "Ll'aneme 'o priatorio",
-    "it": "Il purgatorio e le sue anime",
-    "emoji": ["ghost.png"]
+    "na": "L'aneme 'o priatorio",
+    "it": "Il purgatorio e le sue anime.",
+    "emojis": ["ghost.png"]
   },
 
   "86": {
     "na": "'A puteca",
-    "it": "Il negozio, ma più precisamente la bottega, come un negozio di alimentari",
-    "emoji": ["department-store.png"]
+    "it": "Il negozio, ma più precisamente la bottega, come un negozio di alimentari.",
+    "emojis": ["department-store.png"]
   },
 
   "87": {
     "na": "'E perucchie",
-    "it": "I pidocchi, segno di sporcizia ma anche di povertà",
-    "emoji": ["spider.png"]
+    "it": "I pidocchi, segno di sporcizia ma anche di povertà.",
+    "emojis": ["spider.png"]
   },
 
   "88": {
     "na": "'E casecavalle",
-    "it": "I caciocavalli, formaggi, ma spesso riferito anche al seno della donna",
-    "emoji": ["cheese-wedge.png"]
+    "it": "I caciocavalli, formaggi, ma spesso riferito anche al seno della donna.",
+    "emojis": ["cheese-wedge.png"]
   },
 
   "89": {
     "na": "'A vecchia",
-    "it": "La vecchia, una donna anziana, ma anche visto come il trascorrere del tempo",
-    "emoji": ["old-woman.png"]
+    "it": "La vecchia, una donna anziana, ma anche visto come il trascorrere del tempo.",
+    "emojis": ["old-woman.png"]
   },
 
   "90": {
     "na": "'A paura",
-    "it": "La paura",
-    "emoji": ["face-screaming-in-fear.png"]
+    "it": "La paura.",
+    "emojis": ["face-screaming-in-fear.png"]
   }
 }

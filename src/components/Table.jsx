@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Cell from "./Cell";
 import { toggleNumber } from "../state/numbers";
+import Popup from "./Popup";
 
 const Table = () => {
   const [selectedNumbers, setSelectedNumbers] = useState([]);
+  const [popupNumber, setPopupNumber] = useState(null);
 
   const cells = Array(90)
     .fill(null)
@@ -28,16 +30,24 @@ const Table = () => {
                 .map(cell => (
                   <Cell
                     number={cell}
+                    key={cell}
                     selected={selectedNumbers.indexOf(cell) > -1}
-                    onClick={number =>
-                      setSelectedNumbers(toggleNumber(number, selectedNumbers))
-                    }
+                    onClick={number => {
+                      if (selectedNumbers.indexOf(number) === -1) {
+                        setPopupNumber(number);
+                      }
+
+                      setSelectedNumbers(toggleNumber(number, selectedNumbers));
+                    }}
                   />
                 ))}
             </div>
           ))}
         </div>
       ))}
+      {popupNumber !== null ? (
+        <Popup number={popupNumber} onClose={() => setPopupNumber(null)} />
+      ) : null}
     </div>
   );
 };

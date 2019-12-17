@@ -1,12 +1,12 @@
 $brown: #655643;
-$green: #80BCA3;
+$green: #80bca3;
 $yellow: #f7ecbd;
-$orange: #E6AC27;
-$red: #BF4D28;
-$white: #FFFFFF;
+$orange: #e6ac27;
+$red: #bf4d28;
+$white: #ffffff;
 
-$script: 'Oleo Script Swash Caps', cursive, serif;
-$sans: 'Roboto', sans-serif;
+$script: "Oleo Script Swash Caps", cursive, serif;
+$sans: "Roboto", sans-serif;
 
 body {
   background: $yellow;
@@ -16,7 +16,7 @@ body {
 .title {
   font-family: $script;
   color: $brown;
-  margin: .67em;
+  margin: 0.67em;
   font-size: 2em;
   font-weight: 400;
   text-align: center;
@@ -52,4 +52,75 @@ body {
 .cell--selected {
   background: $red;
   color: $white;
+}
+
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #00000077;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 20px;
+  border: 0.6vh solid $green;
+  margin: 10vw;
+  display: flex;
+  flex-direction:column;
+  padding: 5vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup--open {
+  animation: fade 300ms linear;
+  animation-fill-mode: both;
+}
+
+.popup--close {
+  animation: fade 300ms linear;
+  animation-direction: reverse;
+  animation-fill-mode: both;
+}
+
+.popup-close {
+  text-decoration: none;
+  margin: 2vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: $white;
+  font-size: 5vw;
+}
+
+.smorfia-na {
+  font-family: $script;
+  font-weight: 400;
+  color: $green;
+  margin: 0;
+  font-size: 5vw;
+}
+
+.smorfia-it {
+  font-family: $sans;
+  opacity: .4;
+  font-size: 2vw;
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

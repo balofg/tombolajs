@@ -1,13 +1,16 @@
 import React from "react";
 
 import Table from "./components/Table";
+import Settings from "./components/Settings";
 import "./Tombola.scss";
+import { SettingsProvider } from "./context/Settings";
 
 const Tombola = () => {
   return (
-    <div>
+    <SettingsProvider>
       <h1 className="title">La Tombola di Natale di Martin</h1>
       <Table />
+      <Settings />
       <div className="copyright">
         Made with{" "}
         <img
@@ -25,7 +28,7 @@ const Tombola = () => {
           Barney
         </a>
       </div>
-    </div>
+    </SettingsProvider>
   );
 };
 

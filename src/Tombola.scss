@@ -97,6 +97,7 @@ body {
   right: 0;
   color: $white;
   font-size: 5vw;
+  cursor: pointer;
 }
 
 .smorfia-na {
@@ -113,6 +114,20 @@ body {
   font-size: 2vw;
   text-align: center;
   margin: 0;
+}
+
+.settings-list {
+  list-style-type: none;
+  opacity: 0.5;
+}
+
+.settings-action {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.settings-action--active {
+  font-weight: bolder;
 }
 
 @keyframes fade {

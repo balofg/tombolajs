@@ -37,7 +37,7 @@ const Popup = ({ number, onClose }) => {
       onAnimationEnd={handleAnimationEnd}
     >
       <div className="popup-content">
-        <a href="#" className="popup-close" onClick={() => setAction("close")}>
+        <a className="popup-close" onClick={() => setAction("close")}>
           &times;
         </a>
 

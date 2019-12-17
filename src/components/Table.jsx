@@ -12,7 +12,7 @@ const Table = () => {
   const settings = useContext(SettingsContext);
   const [popupNumber, setPopupNumber] = useState(null);
 
-  const [selectedNumbers, setSelectedNumbers] = useState(settings.backup);
+  const [selectedNumbers, setSelectedNumbers] = useState(settings.gameData);
 
   useEffect(() => {
     settings.init(tableRef.current, reset);
@@ -38,7 +38,7 @@ const Table = () => {
     const newSelectedNumbers = toggleNumber(number, selectedNumbers);
 
     setSelectedNumbers(toggleNumber(number, selectedNumbers));
-    settings.saveBackup(newSelectedNumbers);
+    settings.saveGameData(newSelectedNumbers);
   };
 
   const reset = () => {

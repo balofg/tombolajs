@@ -29,7 +29,7 @@ const SettingsProvider = ({ children }) => {
 
   const toggleSmorfiaEnabled = () => setIsSmorfiaEnabled(!isSmorfiaEnabled);
 
-  const saveBackup = data =>
+  const saveGameData = data =>
     localStorage.setItem("tombola", JSON.stringify(data));
 
   const init = (fullScreenElement, resetCallback) => {
@@ -37,10 +37,10 @@ const SettingsProvider = ({ children }) => {
     resetCallbackRef.current = resetCallback;
   };
 
-  let backup = [];
+  let gameData = [];
 
   try {
-    backup = JSON.parse(localStorage.getItem("tombola") || "[]");
+    gameData = JSON.parse(localStorage.getItem("tombola") || "[]");
   } catch (error) {}
 
   const settings = {
@@ -49,8 +49,8 @@ const SettingsProvider = ({ children }) => {
     init,
     isSmorfiaEnabled,
     toggleSmorfiaEnabled,
-    backup,
-    saveBackup
+    gameData,
+    saveGameData
   };
 
   return (

@@ -29,17 +29,28 @@ const SettingsProvider = ({ children }) => {
 
   const toggleSmorfiaEnabled = () => setIsSmorfiaEnabled(!isSmorfiaEnabled);
 
+  const saveBackup = data =>
+    localStorage.setItem("tombola", JSON.stringify(data));
+
   const init = (fullScreenElement, resetCallback) => {
     fullScreenElementRef.current = fullScreenElement;
     resetCallbackRef.current = resetCallback;
   };
+
+  let backup = [];
+
+  try {
+    backup = JSON.parse(localStorage.getItem("tombola") || "[]");
+  } catch (error) {}
 
   const settings = {
     reset,
     goFullscreen,
     init,
     isSmorfiaEnabled,
-    toggleSmorfiaEnabled
+    toggleSmorfiaEnabled,
+    backup,
+    saveBackup
   };
 
   return (

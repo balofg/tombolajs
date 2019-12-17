@@ -8,11 +8,11 @@ import { toggleNumber } from "../state/numbers";
 import Popup from "./Popup";
 
 const Table = () => {
-  const [selectedNumbers, setSelectedNumbers] = useState([]);
-  const [popupNumber, setPopupNumber] = useState(null);
   const tableRef = useRef();
-
   const settings = useContext(SettingsContext);
+  const [popupNumber, setPopupNumber] = useState(null);
+
+  const [selectedNumbers, setSelectedNumbers] = useState(settings.backup);
 
   useEffect(() => {
     settings.init(tableRef.current, reset);
@@ -38,7 +38,7 @@ const Table = () => {
     const newSelectedNumbers = toggleNumber(number, selectedNumbers);
 
     setSelectedNumbers(toggleNumber(number, selectedNumbers));
-    localStorage.setItem("tombola", JSON.stringify(newSelectedNumbers));
+    settings.saveBackup(newSelectedNumbers);
   };
 
   const reset = () => {

@@ -3,6 +3,19 @@ import { generate } from "randomstring";
 
 const SettingsContext = createContext(null);
 
+const saveGameData = data =>
+  localStorage.setItem("tombola", JSON.stringify(data));
+
+const loadGameData = () => {
+  let gameData = [];
+
+  try {
+    gameData = JSON.parse(localStorage.getItem("tombola") || "[]");
+  } catch (error) {}
+
+  return gameData;
+};
+
 const SettingsProvider = ({ children }) => {
   const [isSmorfiaEnabled, setIsSmorfiaEnabled] = useState(true);
 
@@ -10,14 +23,17 @@ const SettingsProvider = ({ children }) => {
   const fullScreenElementRef = useRef();
 
   const reset = () => {
-    const gameData = localStorage.getItem("tombola");
-    const backupName = generate(10);
+    const gameData = loadGameData();
 
-    localStorage.setItem(backupName, gameData);
-    localStorage.removeItem("tombola");
+    if (gameData.length) {
+      const backupName = generate(10);
 
-    if (typeof resetCallbackRef.current === "function") {
-      resetCallbackRef.current();
+      localStorage.setItem(backupName, JSON.stringify(gameData));
+      localStorage.removeItem("tombola");
+
+      if (typeof resetCallbackRef.current === "function") {
+        resetCallbackRef.current();
+      }
     }
   };
 
@@ -29,19 +45,10 @@ const SettingsProvider = ({ children }) => {
 
   const toggleSmorfiaEnabled = () => setIsSmorfiaEnabled(!isSmorfiaEnabled);
 
-  const saveGameData = data =>
-    localStorage.setItem("tombola", JSON.stringify(data));
-
   const init = (fullScreenElement, resetCallback) => {
     fullScreenElementRef.current = fullScreenElement;
     resetCallbackRef.current = resetCallback;
   };
-
-  let gameData = [];
-
-  try {
-    gameData = JSON.parse(localStorage.getItem("tombola") || "[]");
-  } catch (error) {}
 
   const settings = {
     reset,
@@ -49,8 +56,8 @@ const SettingsProvider = ({ children }) => {
     init,
     isSmorfiaEnabled,
     toggleSmorfiaEnabled,
-    gameData,
-    saveGameData
+    saveGameData,
+    loadGameData
   };
 
   return (

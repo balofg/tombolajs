@@ -12,7 +12,9 @@ const Table = () => {
   const settings = useContext(SettingsContext);
   const [popupNumber, setPopupNumber] = useState(null);
 
-  const [selectedNumbers, setSelectedNumbers] = useState(settings.gameData);
+  const [selectedNumbers, setSelectedNumbers] = useState(
+    settings.loadGameData()
+  );
 
   useEffect(() => {
     settings.init(tableRef.current, reset);

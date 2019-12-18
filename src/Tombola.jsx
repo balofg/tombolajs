@@ -9,8 +9,10 @@ const Tombola = () => {
   return (
     <SettingsProvider>
       <h1 className="title">La Tombola di Natale di Martin</h1>
-      <Table />
-      <Settings />
+      <div className="game">
+        <Table />
+        <Settings />
+      </div>
       <div className="copyright">
         Made with{" "}
         <img
